@@ -36,3 +36,6 @@
       value: "{{ phpmyadmin_mysql_user }}"
     - key: password
       value: "{{ phpmyadmin_mysql_password }}"
+
+- name: configure site
+  file: path=/var/www/phpmyadmin src=/usr/share/phpmyadmin state=link
