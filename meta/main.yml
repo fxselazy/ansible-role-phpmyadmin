@@ -1,7 +1,7 @@
 ---
 dependencies:
   - geerlingguy.apache
-  - geerlingguy.mysql
+  - ansible-role-mysql
   - geerlingguy.php-mysql
   - geerlingguy.php
 
